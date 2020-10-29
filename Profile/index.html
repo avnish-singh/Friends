@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Profile</title>
+	  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+</head>
+<body>
+	<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+.text{	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+.paragraph {
+	color: grey;
+  font-size: 12px;
+}
+img{ margin-top: 20px;
+	border-top: 1px solid #000;
+	border-bottom:1px solid #000;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+}
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+
+
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #000, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #000, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+</style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="#">--Av--</a>
+  
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="../index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">Profile Card</a>
+    </li>
+    </ul>
+</nav>
+
+<h2 style="text-align:center">User Profile Card</h2>
+
+<div class="card">
+               <p align="center"><img src="Avnish.jpg" alt="Avnish" style="width:200px; height: 200px"></p>
+  <h1>Avnish Singh</h1>
+		  <p class="title">Desktop Support Engineer</p>
+		  <p>Dixit Infotech Services Pvt. ltd.</p>
+		  <p class="paragraph">Add: - 505, B Wing, Commercial-1, Kohinoor city, Kirol Road, Off LBS Marg, Kurla(W.) Mumbai 400 070, Maharashtra. (India)</p>
+  <div style="margin: 24px 0;">
+			    <a href="#"><i class="fa fa-dribbble"></i></a> 
+			    <a href="#"><i class="fa fa-twitter"></i></a>  
+			    <a href="#"><i class="fa fa-linkedin"></i></a>  
+			    <a href="#"><i class="fa fa-facebook"></i></a> 
+  </div>
+  <p><button onclick="mouseover()">Contact Me!</button>
+  <p id="demo"></p>
+
+<script class="text">
+function mouseover() {
+  document.getElementById("demo").innerHTML = "Mobile Number : 8418844527,8303341453";
+}
+</script></p>
+</div>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
